@@ -1,17 +1,11 @@
 package org.sopt.seminar3.service;
 
-
-import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.sopt.seminar3.common.dto.ErrorMessage;
-import org.sopt.seminar3.domain.Blog;
-import org.sopt.seminar3.domain.Member;
 import org.sopt.seminar3.domain.Post;
-import org.sopt.seminar3.dto.request.BlogCreateRequest;
 import org.sopt.seminar3.dto.request.PostCreateRequest;
 import org.sopt.seminar3.dto.response.PostFindDto;
 import org.sopt.seminar3.exception.NotFoundException;
-import org.sopt.seminar3.repository.BlogRepository;
 import org.sopt.seminar3.repository.PostRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -19,7 +13,6 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static org.springframework.data.jpa.domain.AbstractPersistable_.id;
 
 @Service
 @RequiredArgsConstructor

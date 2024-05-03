@@ -3,7 +3,6 @@ package org.sopt.seminar3.domain;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import org.sopt.seminar3.dto.request.BlogCreateRequest;
 import org.sopt.seminar3.dto.request.PostCreateRequest;
 
 @Entity

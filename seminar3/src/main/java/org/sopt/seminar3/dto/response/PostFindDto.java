@@ -1,6 +1,5 @@
 package org.sopt.seminar3.dto.response;
 
-import org.sopt.seminar3.domain.Member;
 import org.sopt.seminar3.domain.Post;
 
 public record PostFindDto(

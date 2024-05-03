@@ -1,8 +1,5 @@
 package org.sopt.seminar3.dto.request;
 
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
 import jakarta.validation.constraints.Size;
 
 public record PostCreateRequest(
