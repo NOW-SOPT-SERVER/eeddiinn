@@ -27,7 +27,7 @@ public class PostService {
 
         // 블로그를 소유하지 않은 사용자인 경우 예외 처리
         if (!blogService.findById(blogId).getMember().getId().equals(memberId)) {
-            throw new NotFoundException(ErrorMessage.BLOG_NOT_CREATE);
+            throw new NotFoundException(ErrorMessage.POST_NOT_CREATE);
         }
 
         return postRepository.save(Post.create(blogService.findById(blogId), postCreateRequest)).getId().toString();
